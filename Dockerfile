@@ -8,7 +8,7 @@
 		    pip3 install boto3
 		
 		# Copy Ansible playbook
-		COPY ansible-playbook.yaml /ansible-playbook.yaml
+		COPY ansible-playbook.yaml ansible-playbook.yaml
 		
 		# Set entrypoint
-ENTRYPOINT ["ansible-playbook.yaml", "/ansible-playbook.yaml"]
+ENTRYPOINT ["ansible-playbook.yaml", "ansible-playbook.yaml"]
