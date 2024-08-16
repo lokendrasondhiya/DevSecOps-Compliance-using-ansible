@@ -11,4 +11,4 @@
 		COPY ansible-playbook.yaml /ansible-playbook.yaml
 		
 		# Set entrypoint
-ENTRYPOINT ["ansible-playbook", "/ansible-playbook.yaml"]
+ENTRYPOINT ["ansible-playbook.yaml", "/ansible-playbook.yaml"]
