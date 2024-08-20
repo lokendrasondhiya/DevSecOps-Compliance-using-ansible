@@ -1,8 +1,6 @@
 name: deploy ansible
 on:
   push:
-    branches:
-        -main
 
 
 jobs:
