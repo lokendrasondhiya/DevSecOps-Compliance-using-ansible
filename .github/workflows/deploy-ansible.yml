@@ -14,8 +14,8 @@ jobs:
       - name: Check the ansible Version
         run: ansible --version
 
-      - name: Build Docker image
-        run: docker build -t ansible-playbook .
+      # - name: Build Docker image
+      #   run: docker build -t ansible-playbook .
 
       - name: Run Ansible Playbook
         env:
