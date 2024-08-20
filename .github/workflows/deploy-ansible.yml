@@ -1,9 +1,10 @@
 name: deploy ansible
-#hosts: localhost
 on:
   push:
-   branches: main
-  
+    branches:
+        -main
+
+
 jobs:
   build:
     name: build and deploy
